@@ -22,4 +22,4 @@ END AS Type_of_Service from
 		) as final 
 		inner join 
 		supplier where final.supp_id = supplier.supp_id) AS report;
-		END
+END
